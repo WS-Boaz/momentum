@@ -24,3 +24,5 @@ function renderQuote() {
             $('#author').text(author);
         });
 }
+
+setInterval(renderQuote, 10000);
