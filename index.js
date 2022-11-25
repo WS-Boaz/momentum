@@ -12,7 +12,7 @@ fetch(url)
     $('#time').text(datetime);
 });
 }
-setInterval(renderCurrentTime, 1000);
+setInterval(renderCurrentTime, 100);
 
 function renderQuote() {
     let url = `https://api.quotable.io/random`;
