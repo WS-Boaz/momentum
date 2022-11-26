@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index0.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://a.cdn-hotels.com/gdcs/production122/d319/f4b58730-9bea-11e8-a1b5-0242ac110053.jpg");
+            background-position: center;
+
+            color: white;
+        }
+
+        .space {
+            height: 10px;
+        }
+
+     
+        .display {
+      font-size: 80px; 
+      font-weight:bold;
+    }
+
+        .greeting {
+            font-size: 50px;
+        }
+      
+        .todo {
+            font-size: 30px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 60vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sub {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+  </head>
+
+<body>
+    <div class="space">
+    </div>
+    <blockquote>
+        <a href="https://www.naver.com/"> 
+        <img src="./03 NAVER Logo_White.png" width="10%" hspace="0" vspace="0">
+        </a>
+    </blockquote>
+
+   <div class="main">
+        <span id="current" class="display"></span>
+        <div class="greeting"> Hello, 호윤 Fighting! </div>
+        <div class="todo"> Reading Writing Practice </div>
+   </div>
+
+   <div class="sub">
+            <div id="author" class="author"> - 명언의 저자 - </div>
+        <blockquote>
+            <div id="content" class="content"> " 명언의 내용 " </div>
+        </blockquote>
+   </div>
+
+</body>
+
+</html>
