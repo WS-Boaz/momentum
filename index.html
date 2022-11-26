@@ -24,6 +24,10 @@
             color: white;
         }
 
+        .space {
+            height: 10px;
+        }
+
         .time {
             font-size: 80px;
             font-weight: bold;
@@ -44,7 +48,7 @@
 
         .main {
             width: 100vw;
-            height: 70vh;
+            height: 60vh;
 
             display: flex;
             flex-direction: column;
@@ -68,18 +72,25 @@
 </head>
 
 <body>
-    <a href="https://www.naver.com/"> 
+    <div class="space">
+    </div>
+    <blockquote>
+        <a href="https://www.naver.com/"> 
         <img src="./03 NAVER Logo_White.png" width="10%">
-    </a>
+        </a>
+    </blockquote>
+
    <div class="main">
         <div id="time" class="time"> 18:03 </div>
         <div class="greeting"> Hello, 호윤 Fighting! </div>
         <div class="todo"> Reading Writing Practice </div>
    </div>
+
    <div class="sub">
         <div id="author" class="author"> - 명언의 저자 - </div>
         <div id="content" class="content"> " 명언의 내용 " </div>
    </div>
+
 </body>
 
 </html>
