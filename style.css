@@ -1,11 +1,11 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hind:wght@700&family=Roboto+Slab:wght@400;500;900&display=swap');
 
-* {
-    font-family: 'Poppins', sans-serif;
-}
-/* 위 주소는 구글사이트에서 폰트 가져오기 */
+
+    /*    font-family: 'Hind', sans-serif;
+           font-family: 'Bree Serif', serif;    
+           위 주소는 구글사이트에서 폰트 가져오기  */
 
 body { 
     background-image: url("UK.jpg");
@@ -67,6 +67,7 @@ font-weight:bold;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 article {
@@ -80,5 +81,5 @@ article {
 article:hover          /* 마우스를 올렸을때 나타나는 반응  */
 {
     background-image: url("03\ NAVER\ Logo_Green.png");
-    background-size: cover;z
+    background-size: cover;
 }
