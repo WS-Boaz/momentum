@@ -79,6 +79,6 @@ article {
 
 article:hover          /* 마우스를 올렸을때 나타나는 반응  */
 {
-    background-image: url("01 NAVER logo_Green.png");
+    background-image: url("01\ NAVER\ Logo_Green.png");
     background-size: cover;
 }
